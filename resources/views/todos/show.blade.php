@@ -1,5 +1,7 @@
 @extends('layouts.app')
-
+@section('title')
+    Single Todos:{{$todos->name}}
+@endsection
 @section('content')
     <h1 class="text-center my-5">
         {{$todos->name}}
